@@ -9,7 +9,7 @@ public class Car {
     return year;
   }
 
-  public String getBrand() {
+  public String getName() {
     return brand;
   }
 
@@ -26,6 +26,10 @@ public class Car {
     this.brand = brand;
   }
 
+  @Override
+  public String toString() {
+    return "Car [year=" + year + ", brand=" + brand + "]";
+  }
 
   
 }

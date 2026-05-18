@@ -8,7 +8,7 @@ public class App {
         cars = makeCarsList();
         controlador.sortByName(cars);
         for (Car car : cars) {
-            System.out.println(car.getBrand() + "," + car.getYear());
+            System.out.println(car.getName() + "," + car.getYear());
         }
     }
 
